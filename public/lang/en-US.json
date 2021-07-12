@@ -1,0 +1,138 @@
+{
+    "UI": {
+        "PlantParameters": "Plant parameters",
+        "Plant": "Plant",
+        "LeafParameters": "Leaf parameters",
+        "Leaf": "Leaf",
+        "Unit": "unit",
+        "3DModel": "3D model",
+        "ParameterChart": "Parameter chart",
+        "Name":"Name",
+        "Time":"Time",
+        "Leafnumber":"Leaf number",
+		"SampleID": "Sample ID",
+        "Language": "Language"
+    },
+    "CLASS":{
+        "plantMG":"plant information",
+        "hightMG":"plant height ",
+        "angleMG":"plant angle",
+        "areaMG" :"plnat area"
+
+        
+    },
+    "Parameters": {
+        "Plants": {
+            "LeafCount": {
+                "C_Name": "Leaf count",
+                "info": "The number of leaves of a plant."
+            },
+            "SolidityCompactness": {
+                "C_Name": "Compactness",
+                "info": "The area ratio of the bounding convex hull of the plant to the planting region."
+            },
+            "CircleDiameter": {
+                "C_Name": "Circle Diameter",
+                "info": "The diameter of the circle with the same size leaf."
+            },
+            "Eccentricity": {
+                "C_Name": "Eccentricity",
+                "info": "The eccentricity of the approximate ellipse for the plant shape."
+            },
+            "MaxWidth": {
+                "C_Name": "Maximum width",
+                "info": "The maximum width of the bounding shape of the plant."
+            },
+            "Centroid": {
+                "C_Name": "Plant centroid",
+                "info": "The centroid position of the plant."
+            },
+            "LightPenetrationDepth": {
+                "C_Name": "Light penetration depth",
+                "info": "The deepest distance that the scanning laser light can reach, indicating the leaf density."
+            },
+            "DigitalBiomass": {
+                "C_Name": "Digital biomass",
+                "info": "The product of the surface area and the plant height; it is the comprehensive indicator of plant growth."
+            },
+            "LeafAverageAngle": {
+                "C_Name": "Leaf average angle",
+                "info": "The average leaf angle will vary while the plants receive different levels of light."
+            },
+            "LeafMaxInclinationAngle": {
+                "C_Name": "Maximum left tilt angle",
+                "info": "The maximum tilt angle among all leaves."
+            },
+            "TotalLeafArea": {
+                "C_Name": "Total leaf area",
+                "info": "The sum of all mesh area."
+            },
+            "ConvexHullArea": {
+                "C_Name": "Convex hull area",
+                "info": "The area of the convex hull for the plant."
+            },
+            "ProjectedLeafArea": {
+                "C_Name": "Leaf projection area",
+                "info": "The area of the projected mesh on the planting plane, indicating the total light-receving area of the plant."
+            },
+            "LeafAreaIndex": {
+                "C_Name": "Leaf area index",
+                "info": "The area ratio of the plant projection to the planting region."
+            },
+            "GrowthHeight": {
+                "C_Name": "The plant height",
+                "info": "The growth height of the plant."
+            }
+        },
+        "Leaf": {
+            "Roundness": {
+                "C_Name": "Roundness",
+                "info": "The ratio of the leaf area and the leaf perimeter."
+            },
+            "LeafBladeLength": {
+                "C_Name": "Leaf length",
+                "info": "Leaf length."
+            },
+            "LeafWidth": {
+                "C_Name": "Leaf width",
+                "info": "Leaf width."
+            },
+            "LeafHighestPoint": {
+                "C_Name": "The highest point of the leaf",
+                "info": "The coordinate of the highest point of the leaf."
+            },
+            "LeafPerimeter": {
+                "C_Name": "Leaf perimeter",
+                "info": "Leaf perimeter."
+            },
+            "MediumLeafWidthIndex": {
+                "C_Name": "Leaf width index",
+                "info": "The ratio of the leaf area to the plant stalk."
+            },
+            "SlendernessOfLeaves": {
+                "C_Name": "Leaf thinness",
+                "info": "The ratio of the leaf length to the leaf width."
+            },
+            "LeafArea": {
+                "C_Name": "Leaf area",
+                "info": "Leaf mesh area."
+            },
+            "LeafProjectedArea": {
+                "C_Name": "Leaf light-receving area",
+                "info": "Light-receving of a left, i.e. Leaf projection area."
+            },
+            "LeafInclinationAngle": {
+                "C_Name": "Leaf tilt angle",
+                "info": ""
+            },
+            "LeafAzimuthAngle": {
+                "C_Name": "Leaf azimuth",
+                "info": ""
+            },
+            "LeafInclination": {
+                "C_Name": "Leaf inclination",
+                "info": "The level of leaf bending."
+            }
+        }
+    }
+}

@@ -1,0 +1,167 @@
+[{
+  
+    "UI": {
+        "PlantParameters": "整株參數",
+        "Plant": "整株",
+        "LeafParameters": "單葉參數",
+        "Leaf": "單葉",
+        "Unit": "單位",
+        "3DModel": "3D模型",
+        "ParameterChart": "參數趨勢圖",
+        "Name": "名稱",
+        "Time": "時間",
+        "Leafnumber": "葉片序號",
+		"SampleID": "Sample ID",
+        "Language": "語言"
+    },    
+    "CLASS":{
+        "plantMG":"植物資訊",
+        "hightMG":"植物高度 ",
+        "angleMG":"植物角度",
+        "areaMG" :"植物面積"
+
+        
+    },
+    "Parameters": [{
+        "Plants": [{
+           
+                "idx_Name":"LeafCount",
+                "C_Name": "葉片數量",
+                "info": "整株植物的葉片數量。"
+            },
+            {
+                "idx_Name":"SolidityCompactness",
+                "C_Name": "植物緊實度",
+                "info": "凸包面積與實際覆蓋面積的比率。"
+            },
+            {
+                "idx_Name": "CircleDiameter",
+                "C_Name": "植物圓直徑",
+                "info": "與植物面積相等的圓直徑。"
+            },
+             {
+                "idx_Name": "Eccentricity",
+                "C_Name": "偏心率",
+                "info": "近似整株植物外觀的圓偏心率。"
+            },
+             {
+                "idx_Name":"MaxWidth",
+                "C_Name": "最大寬度",
+                "info": "整株植物外觀最長兩端點的距離。"
+            },
+             {
+                "idx_Name":"Centroid",
+                "C_Name": "植物質心",
+                "info": "植物質心位置。"
+            },
+             {
+                "idx_Name":"LightPenetrationDepth",
+                
+                "C_Name": "光投射深度",
+                "info": "掃描雷射光可到達的深度，表示葉片密集度指標。"
+            },
+             {
+                "idx_Name":"DigitalBiomass",
+                "C_Name": "體積參數",
+                "info": "總表面積與植物高度的乘積，表示植物成長程度的綜合指標。"
+            },
+             {
+                "idx_Name":"LeafAverageAngle",
+                "C_Name": "葉面平均角度",
+                "info": "當植物不同的時間受光不同，葉面平均角度便會有差異。"
+            },
+             {
+                "idx_Name":"LeafMaxInclinationAngle",
+                "C_Name": "葉面最大傾角",
+                "info": "所有葉片中，最大的葉片傾斜角。"
+            },
+             {
+                "idx_Name":"TotalLeafArea",
+                "C_Name": "總葉面積",
+                "info": "掃描點網格化後的所有網格面積總和。"
+            },
+             {
+                "idx_Name":"ConvexHullArea",
+                "C_Name": "凸包面積",
+                "info": "整株植物的凸包面積。"
+            },
+            {
+                "idx_Name":"ProjectedLeafArea",
+                "C_Name": "投影面積",
+                "info": "掃描點網格化投影於栽植平面的面積，表示葉植物的受光總面積。"
+            },
+             {
+                "idx_Name":"LeafAreaIndex",
+                "C_Name": "葉面積指數",
+                "info": "投影面積占栽種區域的比例，表示植物對於土地的使用率。"
+            },
+            {
+                "idx_Name":"GrowthHeight",
+                "C_Name": "生長高度",
+                "info": "植物的生長高度"
+            }
+        ],
+        "Leaf": [
+             {
+                "idx_Name":"Roundness",
+                "C_Name": "葉圓度",
+                "info": "葉面積與葉片周長之間的比例。"
+            },
+             {
+                "idx_Name":"LeafBladeLength",
+                "C_Name": "葉片葉長",
+                "info": "葉片長度。"
+            },
+             {
+                "idx_Name":"LeafWidth",
+                "C_Name": "葉片葉寬",
+                "info": "葉片寬度。"
+            },
+            {
+                "idx_Name":"LeafHighestPoint:",
+                "C_Name": "葉片最高點",
+                "info": "葉片的最高點座標。"
+            },
+             {
+                "idx_Name":"LeafPerimeter",
+                "C_Name": "葉片周長",
+                "info": "葉片周長長度。"
+            },
+            {
+                "idx_Name":"MediumLeafWidthIndex",
+                "C_Name": "葉寬指數",
+                "info": "葉片面積與植物枝幹的比例。"
+            },
+            {
+                "idx_Name":"SlendernessOfLeaves",
+                "C_Name": "葉片細長度",
+                "info": "葉片長度與葉片寬度的比例。"
+            },
+            {
+                "idx_Name":"LeafArea",
+                "C_Name": "葉面積",
+                "info": "葉片三角網格面積。"
+            },
+             {
+                "idx_Name":"LeafProjectedArea",
+                "C_Name": "葉片受光面積",
+                "info": "葉片受光面積，即葉片投影面積。"
+            },
+             {
+                "idx_Name":"LeafInclinationAngle",
+                "C_Name": "葉傾斜角",
+                "info": "葉片傾斜角度。"
+            },
+             {
+                "idx_Name":"LeafAzimuthAngle",
+                "C_Name": "葉方位角",
+                "info": "葉片朝向的方位角度。"
+            },
+             {
+                "idx_Name":"LeafInclination",
+                "C_Name": "葉面曲度",
+                "info": "葉面彎曲的程度。"
+            }
+        ]
+    }]
+}]

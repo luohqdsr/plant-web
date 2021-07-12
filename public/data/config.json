@@ -1,0 +1,147 @@
+{
+    "available":{
+        "Plants":[0,1,2,3,4,5,6,7,8,9,10,11,12,14] ,
+        "Leaf":[18,22,23,24,25,26]    
+    },
+    "Parameters": {
+        "Plants": {
+            "LeafCount": {
+                "ID": 0,
+                "Name": "pLC",
+                "unit": ""
+            },
+            "SolidityCompactness": {
+                "ID": 1,
+                "Name": "pSC",
+                "unit": ""
+            },
+            "CircleDiameter": {
+                "ID": 2,
+                "Name": "pCD",
+                "unit": "mm"
+            },
+            "Eccentricity": {
+                "ID": 3,
+                "Name": "pE",
+                "unit": ""
+            },
+            "MaxWidth": {
+                "ID": 4,
+                "Name": "pMW",
+                "unit": "mm"
+            },
+            "Centroid": {
+                "ID": 5,
+                "Name": "pC",
+                "unit": "point"
+            },
+            "LightPenetrationDepth": {
+                "ID": 6,
+                "Name": "pLPD",
+                "unit": ""
+            },
+            "DigitalBiomass": {
+                "ID": 7,
+                "Name": "pDB",
+                "unit": "mm<sup>3</sup>"
+            },
+            "LeafAverageAngle": {
+                "ID": 8,
+                "Name": "pLAA",
+                "unit": "&deg;"
+            },
+            "LeafMaxInclinationAngle": {
+                "ID": 9,
+                "Name": "pLMIA",
+                "unit": "&deg;"
+            },
+            "TotalLeafArea": {
+                "ID": 10,
+                "Name": "pTLA",
+                "unit": "mm<sup>2</sup>"
+            },
+            "ConvexHullArea": {
+                "ID": 11,
+                "Name": "pCHA",
+                "unit": "mm<sup>2</sup>"
+            },
+            "ProjectedLeafArea": {
+                "ID": 12,
+                "Name": "pPLA",
+                "unit": "mm<sup>2</sup>"
+            },
+            "LeafAreaIndex": {
+                "ID": 13,
+                "Name": "pLAI",
+                "unit": ""
+            },
+            "GrowthHeight": {
+                "ID": 14,
+                "Name": "pGH",
+                "unit": "mm"
+            }
+        },
+        "Leaf": {
+            "Roundness": {
+                "ID": 15,
+                "Name": "iR",
+                "unit": ""
+            },
+            "LeafBladeLength": {
+                "ID": 16,
+                "Name": "iL",
+                "unit": "mm"
+            },
+            "LeafWidth": {
+                "ID": 17,
+                "Name": "iW",
+                "unit": "mm"
+            },
+            "LeafHighestPoint": {
+                "ID": 18,
+                "Name": "iHP",
+                "unit": "point"
+            },
+            "LeafPerimeter": {
+                "ID": 19,
+                "Name": "iP",
+                "unit": "mm"
+            },
+            "MediumLeafWidthIndex": {
+                "ID": 20,
+                "Name": "iMLWI",
+                "unit": ""
+            },
+            "SlendernessOfLeaves": {
+                "ID": 21,
+                "Name": "iSOL",
+                "unit": ""
+            },
+            "LeafArea": {
+                "ID": 22,
+                "Name": "iLA",
+                "unit": "mm<sup>2</sup>"
+            },
+            "LeafProjectedArea": {
+                "ID": 23,
+                "Name": "iLPA",
+                "unit": "mm<sup>2</sup>"
+            },
+            "LeafInclinationAngle": {
+                "ID": 24,
+                "Name": "iLIA",
+                "unit": "&deg;"
+            },
+            "LeafAzimuthAngle": {
+                "ID": 25,
+                "Name": "iLAA",
+                "unit": "&deg;"
+            },
+            "LeafInclination": {
+                "ID": 26,
+                "Name": "iLI",
+                "unit": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+export  const CHAGE_INIT_DONE ='CHAGE_INIT_DONE'

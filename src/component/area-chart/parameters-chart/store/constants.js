@@ -1,0 +1,3 @@
+export const POUPULATION_PARAMETER =  'echartPopulationParameter'
+export const  GENERATED_YAYUS_DATA = 'GENERATED_YAYUS_DATA'
+export const  GENERATED_XAXUS_DATA = 'GENERATED_XAXUS_DATA'

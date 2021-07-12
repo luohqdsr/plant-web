@@ -1,0 +1,124 @@
+.ant-modal-root{
+
+    .comparsion-box{
+        //position: relative;
+        width: 90%!important;
+        height: 100%;
+            img{
+        max-width: 200px;
+    }
+      
+    
+        
+        
+            .ant-modal-content{
+                width: 100%;
+                height: 100%;
+             
+    
+                .ant-modal-header{
+                    height: 5%;
+                    
+                }
+                .ant-modal-body{
+                    display:block;
+                    height: 95%;
+                    overflow-y: hidden;
+                    
+                    .comparsion-Table{
+                        height: 80%;
+                        overflow:hidden;
+                        .ant-table-wrapper{
+                            height: 100%;
+                            .ant-spin-nested-loading{
+                                height: 100%;
+                                .ant-spin-container{
+                                    height: 100%;
+                                    .ant-table{
+                                        height: 100%;
+                                        .ant-table-container{
+                                            height: 100%;
+                                            .ant-table-header{
+                                                height: 5%;
+                                                max-height：none
+                                                .ant-table-cell{
+                                                    text-align: center;
+                                                    font-weight:bold;
+                                                    .ant-select-show-arrow{
+
+                                                    }
+                                                }
+                                               
+                                            }
+                                            .ant-table-body{
+                                                height: 95%;
+                                                max-height: none !important;
+                                                .ant-table-cell{
+                                                    text-align: center;
+                                                    font-weight:bold;
+                                                    .ant-select-show-arrow{
+
+                                                    }
+                                                }
+                                                .ant-btn{
+                                                    width: 85%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                }
+                                            } 
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+
+                    }
+
+                    .comparsion-chart{
+                        width: 100%;
+                        height: 20%;
+                        .Echarts-block{
+                            height: 100%;
+                        }
+                    }
+                }
+              
+    
+            }
+       
+    }
+}
+
+@media screen and (min-width:812px) and (max-width: 1400px)and (max-height: 1366px){
+    .comparsion-box{
+        .ant-table-cell{
+            img{
+                max-width: 200px;
+            }
+        .ant-select-arrow{
+                        width: 80% !important;
+                    }
+                }
+            .ant-select .ant-select-single .ant-select-show-arrow{
+                width: 80%;
+            }
+            .ant-select{
+                width: 100%;
+            }
+            .ant-select-arrow{
+            //  ant-select ant-select-single ant-select-show-arrow
+                width: 80% !important;
+            }
+        }
+    
+}
+//宽屏
+@media screen and (min-width:1900px) and (min-height: 800px){
+    .comparsion-box{
+    img{
+        max-width: 200px;
+    }
+    }
+}
